@@ -1,0 +1,90 @@
+
+main{
+    font-family: 'Red Hat Display', sans-serif;
+    padding-top: 3rem;
+}
+body{
+    
+    background-color:#E1E9FF ;
+    background-repeat: no-repeat;
+  }
+p{
+    color: #8a8696;
+    font-size: 16px;
+}
+button{
+    cursor: pointer;
+}
+/* main content container */
+
+.container{
+    background-color: white;
+    text-align: center;
+    border-radius: 1rem;
+    width: min(85%,400px);
+    margin-inline: auto;
+}
+.image-start{
+    border-radius: 1rem 1rem 0 0;
+    width: min(100%,400px);
+}
+#order-description{
+    padding: 0 3rem;
+}
+
+/* plan change section */
+
+.parent-div{
+    border-radius: 1rem;
+    margin: 0 2rem;
+    justify-content: space-around;
+    display: flex;
+    background-color:  #F8FAFD;
+}
+
+.plan{
+display: flex;
+}
+
+.plan-info{
+    padding-left: 1rem;
+}
+
+.music-icon{
+    margin: 30px 0;
+}
+
+/* buttons in the last  */
+
+.proceed-btn{
+    margin: 1rem auto 0.5rem auto;
+    font-weight: 200;
+    font-family: 'Red Hat Display', sans-serif;
+    padding: 1rem 6.5rem ;
+    background-color: #382ae1;
+    border-color: #382AE1;
+    color: white;
+    border-radius: 10px;
+}
+.proceed-btn:hover{
+    background-color: #7280A7;
+}
+.cancel-btn{
+    color: #8a8696;
+    background-color: white;
+    margin: 1rem 0 1.5rem 0;
+    font-weight: bold;
+    font-family: 'Red Hat Display', sans-serif;
+    border-color: white;
+    border: white;
+    padding: 0.5rem 5rem;
+}
+
+/* foot of the webpage and code  */
+footer{
+    margin: 2rem;
+    text-align: center;
+ 
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
